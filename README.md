@@ -15,6 +15,12 @@ A minimal Java 17 Spring Boot 3 REST API that runs on AWS Lambda using `aws-serv
 - Java 17 or higher
 - Maven 3.6 or higher
 
+If Maven is using an older JDK, you can run a one-off build with JDK 17 in bash:
+
+```bash
+JAVA_HOME="/c/Program Files/Java/jdk-17.0.1" PATH="$JAVA_HOME/bin:$PATH" mvn clean package
+```
+
 ## Project Structure
 
 ```
